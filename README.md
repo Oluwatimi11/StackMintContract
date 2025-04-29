@@ -1,4 +1,4 @@
-# SmartMint (SMT)
+# StackMint (SMT)
 **Version:** 1.1.0  
 **Language:** Clarity (Stacks Blockchain)  
 **Standard:** ERC-20-like with enhancements for token locking and supply control  
@@ -7,7 +7,7 @@
 
 ## 📘 Overview
 
-**SmartMint (SMT)** is a fungible token smart contract written in Clarity, designed to emulate the ERC-20 standard while incorporating advanced features such as:
+**StackMint (SMT)** is a fungible token smart contract written in Clarity, designed to emulate the ERC-20 standard while incorporating advanced features such as:
 
 - Token locking with unlock heights  
 - Adjustable allowances  
@@ -21,7 +21,7 @@
 
 | Property        | Value                        |
 |----------------|------------------------------|
-| **Name**       | SmartMint                    |
+| **Name**       | StackMint                    |
 | **Symbol**     | SMT                          |
 | **Decimals**   | 6                            |
 | **Initial Supply** | 1,000,000 SMT (`u1000000000000`) |
@@ -60,7 +60,7 @@ Upon deployment, all initial supply is allocated to the contract deployer (`tx-s
 
 | Function                         | Description                                  |
 |----------------------------------|----------------------------------------------|
-| `get-name()`                    | Returns `"SmartMint"`                        |
+| `get-name()`                    | Returns `"StackMint"`                        |
 | `get-symbol()`                  | Returns `"SMT"`                              |
 | `get-decimals()`                | Returns `u6`                                 |
 | `get-total-supply()`           | Returns current total supply                 |
@@ -135,7 +135,7 @@ Deploy using Clarinet or directly through the Stacks API with the contract conte
 clarinet deploy
 ```
 
-**Contract file:** `smartmint-contract.clar`
+**Contract file:** `stackmint-contract.clar`
 
 ---
 
